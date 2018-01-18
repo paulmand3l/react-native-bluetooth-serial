@@ -20,7 +20,8 @@ public class RCTBluetoothSerialPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    // Deprecated in ReactNative 0.47
+    // @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
